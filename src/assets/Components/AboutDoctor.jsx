@@ -11,12 +11,12 @@ function AboutDoctor() {
             <div className="flex flex-col lg:flex-row justify-center items-center gap-10 max-w-6xl mx-auto">
                 
                 {/* Doctor Card Template */}
-                <div className="bg-white rounded-xl shadow-lg p-6 text-center w-full max-w-sm relative">
-                    {/* Background Circle */}
-                    <div className="absolute top-15 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-100 w-40 h-40 rounded-full z-0"></div>
+                <div className="bg-white rounded-md shadow-lg p-6 text-center w-full max-w-sm relative">
+                   
+                    
 
                     {/* Doctor Image */}
-                    <div className="relative z-10">
+                    <div >
                         <img
                             src={img1}
                             alt="Dr. Abhinay Agarwal"
@@ -48,12 +48,12 @@ function AboutDoctor() {
                 </div>
 
                 {/* Dr. Megha Card */}
-                <div className="bg-white rounded-xl shadow-lg p-6 text-center w-full max-w-sm relative">
-                    {/* Background Circle */}
-                    <div className="absolute top-15 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-100 w-40 h-40 rounded-full z-0"></div>
+                <div className="bg-white rounded-md shadow-lg p-6 text-center w-full max-w-sm relative">
+                    
+                   
 
                     {/* Doctor Image */}
-                    <div className="relative z-10">
+                    <div >
                         <img
                             src={img2}
                             alt="Dr. Megha Agarwal"

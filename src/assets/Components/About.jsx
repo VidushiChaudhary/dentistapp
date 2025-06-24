@@ -4,6 +4,10 @@ import Aboutfirstsec from "./AboutfirstSec";
 import AboutDoctor from "./AboutDoctor";
 import Aboutsecondsec from './Aboutsecondsec';
 import Aboutthirdsec from './Aboutthirdsec';
+import Workinghours from './Workinghours';
+import AboutReview from './AboutReview';
+import Result from './Result';
+import AboutGallery from './AboutGallery';
 
 function About() {
     return (
@@ -19,9 +23,15 @@ function About() {
                 />
             </div>
             <Aboutfirstsec/>
-             <AboutDoctor/>
+            <AboutDoctor/>
+            <Result/>
             <Aboutsecondsec/>
+            <Workinghours/>
+            <AboutGallery/>
+            <AboutReview/>
             <Aboutthirdsec/>
+            
+            
            
         </div>
     );

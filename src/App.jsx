@@ -14,7 +14,9 @@ import Aboutfirstsec from './assets/Components/AboutfirstSec';
 import AboutDoctor from './assets/Components/AboutDoctor';
 import Aboutsecondsec from './assets/Components/Aboutsecondsec';
 import Aboutthirdsec from './assets/Components/Aboutthirdsec';
-
+import Workinghours from './assets/Components/Workinghours';
+import AboutReview from './assets/Components/AboutReview';
+import AboutGallery from './assets/Components/AboutGallery';
 function App() {
   return (
     <BrowserRouter>
@@ -32,7 +34,10 @@ function App() {
         <Route path="/Aboutfirstsec" element={<Aboutfirstsec />} />
         <Route path="/Aboutvideo" element={<AboutDoctor />} />
         <Route path="/Aboutsecondsec" element={<Aboutsecondsec />} />
-         <Route path="/Aboutthirdsec" element={<Aboutthirdsec />} />
+        <Route path="/Aboutthirdsec" element={<Aboutthirdsec />} />
+        <Route path="/Workinghours" element={<Workinghours />} />
+        <Route path="/AboutReview" element={<AboutReview />} />
+        <Route path="/AboutGallery" element={<AboutGallery />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
