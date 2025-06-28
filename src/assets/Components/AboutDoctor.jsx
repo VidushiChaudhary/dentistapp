@@ -7,11 +7,12 @@ function AboutDoctor() {
     const [showFullMegha, setShowFullMegha] = useState(false);
 
     return (
-        <div className="py-12 px-6 bg-blue-100">
-            <h2 className="text-center text-4xl font-bold text-blue-800 mb-10">Meet Our Experts</h2>
+        <div className="py-12 px-6 bg-blue-200">
+            <h2 className="text-center text-4xl font-bold text-blue-800 mb-10">Meet Our Doctors</h2>
+            
             <div className="flex flex-col lg:flex-row justify-center items-stretch gap-10 max-w-6xl mx-auto">
-
-                {/* Doctor Card Template */}
+                
+                {/* Dr. Abhinay Card */}
                 <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md flex flex-col justify-between">
                     <div>
                         <img
@@ -38,7 +39,7 @@ function AboutDoctor() {
                     </div>
 
                     <button
-                        className="mt-4 w-full bg-blue-700 text-white py-2 rounded hover:bg-blue-800 transition"
+                        className="mt-4 w-30 bg-blue-700 text-white py-2 rounded hover:bg-blue-800 transition mx-auto"
                         onClick={() => setShowFullAbhinay(!showFullAbhinay)}
                     >
                         {showFullAbhinay ? "Show Less" : "Read More"}
@@ -75,7 +76,7 @@ function AboutDoctor() {
                     </div>
 
                     <button
-                        className="mt-4 w-full bg-blue-700 text-white py-2 rounded hover:bg-blue-800 transition"
+                        className="mt-4 w-30 bg-blue-700 text-white py-2 rounded hover:bg-blue-800 transition mx-auto"
                         onClick={() => setShowFullMegha(!showFullMegha)}
                     >
                         {showFullMegha ? "Show Less" : "Read More"}
@@ -87,4 +88,5 @@ function AboutDoctor() {
 }
 
 export default AboutDoctor;
+
 

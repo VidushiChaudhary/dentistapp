@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div>
       {/* Scrolling Header */}
-      <div className="h-12 p-2 w-full bg-blue-900 text-white text-center text-sm md:text-xl font-semibold px-4 whitespace-nowrap overflow-hidden overflow-x-auto">
+      <div className="h-17 p-4 w-full bg-blue-900 text-white text-center text-sm md:text-2xl font-semibold px-4 whitespace-nowrap overflow-hidden overflow-x-auto">
         Welcome to Agarwal Super Speciality Dental Clinic
       </div>
 
