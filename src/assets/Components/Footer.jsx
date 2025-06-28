@@ -36,8 +36,8 @@ function Footer() {
               100% Sterilized Instruments • Trusted by 10,000+ Patients
           </p>
           <div className="text-xs text-blue-100">
-  NABH Accredited | MDS Specialists | Pain-Free Treatments
-</div>
+                NABH Accredited | MDS Specialists | Pain-Free Treatments
+          </div>
         </div>
 
         {/* Center - Clinic & Quick Links */}

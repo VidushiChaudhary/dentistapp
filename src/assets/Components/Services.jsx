@@ -1,57 +1,52 @@
 import React from "react";
-import pic1 from '../pic-1.png';
-import pic2 from '../pic-2.png';
-import pic3 from '../pic-3.png';
-import pic4 from '../pic-4.png';
+import teeth6 from '../teeth6.avif';
+import Services1 from "./Services1";
+import Services2 from "./Services2";
+import Servicescontact from "./Servicescontact";
 
 
 function Services() {
-  const services = [
-    {
-      img: pic1,
-      title: "Restorative Care",
-      desc: "When tooth decay or damage occurs, our restorative dentistry services can help restore your smile’s function and aesthetics."
-    },
-    {
-      img: pic2,
-      title: "Dental Implant",
-      desc: "Dental implants are artificial tooth roots that are surgically placed into the jawbone. They function as anchors for artificial teeth."
-    },
-    {
-      img: pic3,
-      title: "Orthodontics",
-      desc: "Orthodontics can correct misaligned teeth and jaws, improving your smile’s appearance and oral health."
-    },
-    {
-      img: pic4,
-      title: "Gum Health",
-      desc: "Healthy gums can save you from serious oral health problems as well as reduce the risk of diabetes, stroke, and heart disease."
-    }
-  ];
-
   return (
-    <div className="px-6 py-12 bg-white">
-      {/* Section Heading */}
-      <div className="text-center mb-10">
-        <p className="text-blue-900 text-lg font-semibold uppercase">Our Services</p>
-        <p className="text-4xl md:text-5xl font-bold mt-2">Our Procedures</p>
-        <p className="text-gray-600 text-base mt-4 max-w-2xl mx-auto">
-          At Agarwal Super Speciality Dental Clinic, we offer a wide range of dental services designed to make your experience as comfortable as possible.
-        </p>
+    <div className="bg-white">
+      
+      {/* Full-screen Image with Left-aligned Overlay Content */}
+      <div className="relative w-full h-[80vh] sm:h-[85vh] md:h-[90vh] lg:h-screen">
+        <img
+          src={teeth6}
+          alt="Dental Services"
+          className="w-full h-full object-cover"
+        />
+
+        {/* Overlay Text Content on Left */}
+        <div className="absolute inset-0  bg-opacity-50 flex items-center px-4 sm:px-8 md:px-20">
+          <div className="text-blue-900 max-w-2xl space-y-4 z-10">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900">
+              Our Dental Services
+            </h2>
+            <p className="text-sm sm:text-base md:text-lg">
+              At Agarwal's Super Speciality Dental Clinic, we are dedicated to providing a full range of dental treatments to help you maintain a healthy and confident smile.
+            </p>
+            <ul className="list-disc list-inside text-blue-900 text-sm sm:text-base space-y-2">
+              <li>General Dentistry & Preventive Care</li>
+              <li>Cosmetic Dentistry (Teeth Whitening, Veneers)</li>
+              <li>Orthodontics (Braces & Invisalign)</li>
+              <li>Root Canal Treatment (RCT)</li>
+              <li>Dental Implants & Bridges</li>
+              <li>Child Dental Care</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {services.map((service, index) => (
-          <div key={index} className="bg-blue-50 rounded-2xl shadow-md hover:shadow-xl transition-shadow p-6 text-center flex flex-col items-center">
-            <img src={service.img} alt={service.title} className="w-24 h-24 mb-4" />
-            <h3 className="text-xl font-semibold text-blue-900 mb-2">{service.title}</h3>
-            <p className="text-gray-700 text-sm">{service.desc}</p>
-          </div>
-        ))}
+      {/* Service Cards Section */}
+      <div className="px-4 sm:px-6 md:px-20 py-12 space-y-10">
+        <Services1 />
+        <Services2 />
+        <Servicescontact/>
       </div>
     </div>
   );
 }
 
 export default Services;
+

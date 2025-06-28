@@ -1,11 +1,10 @@
 import React from "react";
 
-function Treatments (){
+function Stainedteeth(){
     return(
         <div>
 
         </div>
     )
 }
-
-export default Treatments
+export default Stainedteeth;

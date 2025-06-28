@@ -21,7 +21,7 @@ function Doctorsec() {
           <img
             src={abhinay}
             alt="Dr. Abhinay Agarwal"
-            className="w-80 h-80 sm:w-96 sm:h-96 object-cover rounded-xl shadow-md border-4 border-white"
+            className="w-80 h-80 sm:w-96 sm:h-96 object-cover rounded-md shadow-md border-2 border-amber-50 "
           />
         </div>
 

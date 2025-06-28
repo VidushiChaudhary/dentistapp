@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 import AboutClinic from './AboutClinic';
-import Services from './Services';
+import OurServices from './OurServices';
 import Result from './Result';
 import Doctorsec from './Doctorsec';
 
@@ -120,7 +120,7 @@ function Home() {
       {/* Other Sections */}
       <AboutClinic />
       <Doctorsec />
-      <Services />
+      <OurServices />
       <Result />
     </div>
   );
