@@ -54,7 +54,7 @@ function Navbar() {
                   className="absolute left-0 mt-2 bg-white border border-blue-200 rounded-md shadow-xl z-50 min-w-[240px]"
                 >
                   {[
-                    { label: "Treatment of Painful Teething", path: "/treatments/teething" },
+                    { label: "Treatment of Painful Teething", path: "/Painfulteething" },
                     { label: "Treatment of Stained Teeth", path: "/treatments/stained-teeth" },
                     { label: "Treatment of Toothache", path: "/treatments/toothache" },
                     { label: "Myomectomy Treatment", path: "/treatments/myomectomy" },

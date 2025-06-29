@@ -8,7 +8,7 @@ function ContactSection() {
       {/* Contact Form and Info Section */}
       <div className="bg-blue-200 py-8 px-4 sm:px-6 md:px-16 lg:px-32 mt-20 text-gray-900 relative overflow-hidden rounded-xl">
         {/* Decorative angled background */}
-        <div className="absolute top-0 left-0 w-full h-full bg-orange-200 rotate-2 origin-top -z-10 rounded-xl"></div>
+        <div className="absolute top-0 left-0 w-full h-full  rotate-2 origin-top -z-10 rounded-xl"></div>
 
         <div className="flex flex-col md:flex-row gap-10 items-start justify-between">
           {/* Left: Contact Form */}
@@ -49,6 +49,9 @@ function ContactSection() {
                     className="w-full p-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-400"
                     placeholder="Your phone number"
                   />
+                </div>
+                <div>
+                  <textarea className="border black-2 h-40 w-full p-3" placeholder="Message"/>
                 </div>
                 <button
                   type="submit"

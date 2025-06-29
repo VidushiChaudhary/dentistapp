@@ -9,7 +9,7 @@ function Contact() {
       
 
       {/* Hero Section with Gradient */}
-      <div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 text-blue-900 w-full min-h-[70vh] md:min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-10 md:py-0 gap-10 ">
+      <div className="bg-gradient-to-r from-blue-300 via-blue-300 to-blue-900 text-blue-900 w-full min-h-[70vh] md:min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-10 md:py-0 gap-10 ">
         
         {/* Left Content */}
        
@@ -22,6 +22,7 @@ function Contact() {
             consultations, checkups, or any dental concerns. We're just a call
             away!
           </p>
+          
           <a
             href="tel:+911234567890"
             className="inline-block bg-white text-blue-900 font-semibold px-4 py-2 text-sm md:text-base rounded-md shadow hover:bg-blue-100 transition duration-300 w-fit"

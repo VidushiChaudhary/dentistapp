@@ -4,7 +4,7 @@ import Navbar from './assets/Components/Navbar';
 import Home from './assets/Components/Home';
 import AboutClinic from './assets/Components/AboutClinic';
 import About from './assets/Components/About';
-import Treatment from './assets/Components/TreatmentDropdown';
+import Treatment from './assets/Components/Treatment';
 import Contact from './assets/Components/Contact';
 import Contactform from './assets/Components/Contactform';
 import OurServices from './assets/Components/OurServices';
