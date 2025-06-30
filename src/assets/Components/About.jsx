@@ -18,7 +18,7 @@ function About() {
                 {/* Left Text Content */}
                 <div className="w-full md:w-1/2 text-blue-900 space-y-6">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                        About Agarwal's 
+                        About Agarwal's Dental Clinic
                     </h1>
                     <p className="text-sm sm:text-base md:text-lg lg:text-xl">
                         With over 17 years of excellence in dental care, we are committed to creating beautiful, healthy smiles using advanced technology and personalized treatment in a calm, patient-friendly environment.
